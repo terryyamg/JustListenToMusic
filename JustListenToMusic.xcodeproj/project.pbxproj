@@ -3,16 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E13BF04EC760B591F6E2D60 /* Pods_JustListenToMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B5111B4E85B93F717196CA /* Pods_JustListenToMusicTests.framework */; };
+		8A5A0F05BB32E11989D168CE /* Pods_JustListenToMusic_JustListenToMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B931EEEEF37325D4D8B01D4 /* Pods_JustListenToMusic_JustListenToMusicUITests.framework */; };
+		A4C2068C151ECDD8F38B03E2 /* Pods_JustListenToMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0BCF1E82AD7BE173F8F549 /* Pods_JustListenToMusic.framework */; };
+		C8687EF226B0038200A2BECF /* (日)あいみょん - マリーゴールド.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8687EEE26B0038200A2BECF /* (日)あいみょん - マリーゴールド.mp3 */; };
+		C8687EF326B0038200A2BECF /* (國)黃明志-我們的海闊天空.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8687EEF26B0038200A2BECF /* (國)黃明志-我們的海闊天空.mp3 */; };
+		C8687EF426B0038200A2BECF /* (國)縱貫線-亡命之徒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8687EF026B0038200A2BECF /* (國)縱貫線-亡命之徒.mp3 */; };
+		C8687EF526B0038200A2BECF /* (日)出逢った頃のように.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8687EF126B0038200A2BECF /* (日)出逢った頃のように.mp3 */; };
+		C8687EF826B00F2B00A2BECF /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = C8687EF726B00F2B00A2BECF /* OrderedCollections */; };
+		C88A942926BD11CB009FB5FB /* (日)平井 堅-瞳をとじて.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88A942826BD11CB009FB5FB /* (日)平井 堅-瞳をとじて.mp3 */; };
+		C88A942B26BD128C009FB5FB /* (Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88A942A26BD128C009FB5FB /* (Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3 */; };
+		C88E990E26B24A2D003FEF11 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C88E990D26B24A2D003FEF11 /* Lottie */; };
+		C88E991026B25348003FEF11 /* MusicPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E990F26B25348003FEF11 /* MusicPlayingView.swift */; };
+		C88E991526B2566A003FEF11 /* walking01.json in Resources */ = {isa = PBXBuildFile; fileRef = C88E991426B2566A003FEF11 /* walking01.json */; };
+		C88E991D26B25677003FEF11 /* walking02.json in Resources */ = {isa = PBXBuildFile; fileRef = C88E991626B25677003FEF11 /* walking02.json */; };
+		C88E991E26B25677003FEF11 /* walking03.json in Resources */ = {isa = PBXBuildFile; fileRef = C88E991726B25677003FEF11 /* walking03.json */; };
 		C8C23AB226AE857600AB5E17 /* JustListenToMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AB126AE857600AB5E17 /* JustListenToMusicApp.swift */; };
-		C8C23AB426AE857600AB5E17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AB326AE857600AB5E17 /* ContentView.swift */; };
 		C8C23AB626AE857700AB5E17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C23AB526AE857700AB5E17 /* Assets.xcassets */; };
 		C8C23AB926AE857700AB5E17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C23AB826AE857700AB5E17 /* Preview Assets.xcassets */; };
 		C8C23AC426AE857700AB5E17 /* JustListenToMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AC326AE857700AB5E17 /* JustListenToMusicTests.swift */; };
 		C8C23ACF26AE857700AB5E17 /* JustListenToMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23ACE26AE857700AB5E17 /* JustListenToMusicUITests.swift */; };
+		C8C23AF726AE8FEF00AB5E17 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AEA26AE8FEF00AB5E17 /* FolderView.swift */; };
+		C8C23AF826AE8FEF00AB5E17 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AEB26AE8FEF00AB5E17 /* MainView.swift */; };
+		C8C23AF926AE8FEF00AB5E17 /* MusicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AED26AE8FEF00AB5E17 /* MusicList.swift */; };
+		C8C23AFA26AE8FEF00AB5E17 /* MusicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AEE26AE8FEF00AB5E17 /* MusicRow.swift */; };
+		C8C23AFB26AE8FEF00AB5E17 /* MusicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AF026AE8FEF00AB5E17 /* MusicData.swift */; };
+		C8C23AFC26AE8FEF00AB5E17 /* MusicRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AF226AE8FEF00AB5E17 /* MusicRowViewModel.swift */; };
+		C8C23AFD26AE8FEF00AB5E17 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AF326AE8FEF00AB5E17 /* MainViewModel.swift */; };
+		C8C23AFE26AE8FEF00AB5E17 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AF426AE8FEF00AB5E17 /* MusicListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +55,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B5111B4E85B93F717196CA /* Pods_JustListenToMusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustListenToMusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B931EEEEF37325D4D8B01D4 /* Pods_JustListenToMusic_JustListenToMusicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustListenToMusic_JustListenToMusicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		678275E281DB93BCB23A9EE0 /* Pods-JustListenToMusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustListenToMusicTests.release.xcconfig"; path = "Target Support Files/Pods-JustListenToMusicTests/Pods-JustListenToMusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B0BCF1E82AD7BE173F8F549 /* Pods_JustListenToMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustListenToMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE171B68F4DB5EB723DBFAE7 /* Pods-JustListenToMusic-JustListenToMusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustListenToMusic-JustListenToMusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-JustListenToMusic-JustListenToMusicUITests/Pods-JustListenToMusic-JustListenToMusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C224853F6438C78C2192043B /* Pods-JustListenToMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustListenToMusic.debug.xcconfig"; path = "Target Support Files/Pods-JustListenToMusic/Pods-JustListenToMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		C39E963006E9447908D7AF4E /* Pods-JustListenToMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustListenToMusic.release.xcconfig"; path = "Target Support Files/Pods-JustListenToMusic/Pods-JustListenToMusic.release.xcconfig"; sourceTree = "<group>"; };
+		C8687EEE26B0038200A2BECF /* (日)あいみょん - マリーゴールド.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(日)あいみょん - マリーゴールド.mp3"; sourceTree = "<group>"; };
+		C8687EEF26B0038200A2BECF /* (國)黃明志-我們的海闊天空.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(國)黃明志-我們的海闊天空.mp3"; sourceTree = "<group>"; };
+		C8687EF026B0038200A2BECF /* (國)縱貫線-亡命之徒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(國)縱貫線-亡命之徒.mp3"; sourceTree = "<group>"; };
+		C8687EF126B0038200A2BECF /* (日)出逢った頃のように.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(日)出逢った頃のように.mp3"; sourceTree = "<group>"; };
+		C88A942826BD11CB009FB5FB /* (日)平井 堅-瞳をとじて.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(日)平井 堅-瞳をとじて.mp3"; sourceTree = "<group>"; };
+		C88A942A26BD128C009FB5FB /* (Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3"; sourceTree = "<group>"; };
+		C88E990F26B25348003FEF11 /* MusicPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayingView.swift; sourceTree = "<group>"; };
+		C88E991426B2566A003FEF11 /* walking01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = walking01.json; sourceTree = "<group>"; };
+		C88E991626B25677003FEF11 /* walking02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = walking02.json; sourceTree = "<group>"; };
+		C88E991726B25677003FEF11 /* walking03.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = walking03.json; sourceTree = "<group>"; };
 		C8C23AAE26AE857600AB5E17 /* JustListenToMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustListenToMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C23AB126AE857600AB5E17 /* JustListenToMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustListenToMusicApp.swift; sourceTree = "<group>"; };
-		C8C23AB326AE857600AB5E17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8C23AB526AE857700AB5E17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C23AB826AE857700AB5E17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C8C23ABA26AE857700AB5E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +83,16 @@
 		C8C23ACA26AE857700AB5E17 /* JustListenToMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustListenToMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C23ACE26AE857700AB5E17 /* JustListenToMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustListenToMusicUITests.swift; sourceTree = "<group>"; };
 		C8C23AD026AE857700AB5E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C23AEA26AE8FEF00AB5E17 /* FolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
+		C8C23AEB26AE8FEF00AB5E17 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C8C23AED26AE8FEF00AB5E17 /* MusicList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicList.swift; sourceTree = "<group>"; };
+		C8C23AEE26AE8FEF00AB5E17 /* MusicRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicRow.swift; sourceTree = "<group>"; };
+		C8C23AF026AE8FEF00AB5E17 /* MusicData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicData.swift; sourceTree = "<group>"; };
+		C8C23AF226AE8FEF00AB5E17 /* MusicRowViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicRowViewModel.swift; sourceTree = "<group>"; };
+		C8C23AF326AE8FEF00AB5E17 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		C8C23AF426AE8FEF00AB5E17 /* MusicListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
+		D507006ECC65A2AA78316365 /* Pods-JustListenToMusic-JustListenToMusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustListenToMusic-JustListenToMusicUITests.release.xcconfig"; path = "Target Support Files/Pods-JustListenToMusic-JustListenToMusicUITests/Pods-JustListenToMusic-JustListenToMusicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3C451CDB9CD819E20E50EEB /* Pods-JustListenToMusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustListenToMusicTests.debug.xcconfig"; path = "Target Support Files/Pods-JustListenToMusicTests/Pods-JustListenToMusicTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8687EF826B00F2B00A2BECF /* OrderedCollections in Frameworks */,
+				A4C2068C151ECDD8F38B03E2 /* Pods_JustListenToMusic.framework in Frameworks */,
+				C88E990E26B24A2D003FEF11 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E13BF04EC760B591F6E2D60 /* Pods_JustListenToMusicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +118,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A5A0F05BB32E11989D168CE /* Pods_JustListenToMusic_JustListenToMusicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6780045EC33D6E70BFF73845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B0BCF1E82AD7BE173F8F549 /* Pods_JustListenToMusic.framework */,
+				4B931EEEEF37325D4D8B01D4 /* Pods_JustListenToMusic_JustListenToMusicUITests.framework */,
+				18B5111B4E85B93F717196CA /* Pods_JustListenToMusicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F60DBF7C81C501C124FD463 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C224853F6438C78C2192043B /* Pods-JustListenToMusic.debug.xcconfig */,
+				C39E963006E9447908D7AF4E /* Pods-JustListenToMusic.release.xcconfig */,
+				BE171B68F4DB5EB723DBFAE7 /* Pods-JustListenToMusic-JustListenToMusicUITests.debug.xcconfig */,
+				D507006ECC65A2AA78316365 /* Pods-JustListenToMusic-JustListenToMusicUITests.release.xcconfig */,
+				E3C451CDB9CD819E20E50EEB /* Pods-JustListenToMusicTests.debug.xcconfig */,
+				678275E281DB93BCB23A9EE0 /* Pods-JustListenToMusicTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C88E991326B25581003FEF11 /* Lottie Files */ = {
+			isa = PBXGroup;
+			children = (
+				C88E991426B2566A003FEF11 /* walking01.json */,
+				C88E991626B25677003FEF11 /* walking02.json */,
+				C88E991726B25677003FEF11 /* walking03.json */,
+			);
+			path = "Lottie Files";
+			sourceTree = "<group>";
+		};
 		C8C23AA526AE857500AB5E17 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +165,8 @@
 				C8C23AC226AE857700AB5E17 /* JustListenToMusicTests */,
 				C8C23ACD26AE857700AB5E17 /* JustListenToMusicUITests */,
 				C8C23AAF26AE857600AB5E17 /* Products */,
+				7F60DBF7C81C501C124FD463 /* Pods */,
+				6780045EC33D6E70BFF73845 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +184,10 @@
 			isa = PBXGroup;
 			children = (
 				C8C23AB126AE857600AB5E17 /* JustListenToMusicApp.swift */,
-				C8C23AB326AE857600AB5E17 /* ContentView.swift */,
+				C8C23AEF26AE8FEF00AB5E17 /* Models */,
+				C8C23AE826AE8FEF00AB5E17 /* Views */,
+				C8C23AE526AE8FEF00AB5E17 /* Music Files */,
+				C88E991326B25581003FEF11 /* Lottie Files */,
 				C8C23AB526AE857700AB5E17 /* Assets.xcassets */,
 				C8C23ABA26AE857700AB5E17 /* Info.plist */,
 				C8C23AB726AE857700AB5E17 /* Preview Content */,
@@ -130,6 +221,58 @@
 			path = JustListenToMusicUITests;
 			sourceTree = "<group>";
 		};
+		C8C23AE526AE8FEF00AB5E17 /* Music Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8687EF126B0038200A2BECF /* (日)出逢った頃のように.mp3 */,
+				C8687EEE26B0038200A2BECF /* (日)あいみょん - マリーゴールド.mp3 */,
+				C88A942826BD11CB009FB5FB /* (日)平井 堅-瞳をとじて.mp3 */,
+				C88A942A26BD128C009FB5FB /* (Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3 */,
+				C8687EEF26B0038200A2BECF /* (國)黃明志-我們的海闊天空.mp3 */,
+				C8687EF026B0038200A2BECF /* (國)縱貫線-亡命之徒.mp3 */,
+			);
+			path = "Music Files";
+			sourceTree = "<group>";
+		};
+		C8C23AE826AE8FEF00AB5E17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8C23AE926AE8FEF00AB5E17 /* Music Groups */,
+				C8C23AEC26AE8FEF00AB5E17 /* Music List */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C8C23AE926AE8FEF00AB5E17 /* Music Groups */ = {
+			isa = PBXGroup;
+			children = (
+				C8C23AEB26AE8FEF00AB5E17 /* MainView.swift */,
+				C8C23AF326AE8FEF00AB5E17 /* MainViewModel.swift */,
+				C8C23AEA26AE8FEF00AB5E17 /* FolderView.swift */,
+			);
+			path = "Music Groups";
+			sourceTree = "<group>";
+		};
+		C8C23AEC26AE8FEF00AB5E17 /* Music List */ = {
+			isa = PBXGroup;
+			children = (
+				C8C23AED26AE8FEF00AB5E17 /* MusicList.swift */,
+				C8C23AF426AE8FEF00AB5E17 /* MusicListViewModel.swift */,
+				C8C23AEE26AE8FEF00AB5E17 /* MusicRow.swift */,
+				C8C23AF226AE8FEF00AB5E17 /* MusicRowViewModel.swift */,
+				C88E990F26B25348003FEF11 /* MusicPlayingView.swift */,
+			);
+			path = "Music List";
+			sourceTree = "<group>";
+		};
+		C8C23AEF26AE8FEF00AB5E17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C8C23AF026AE8FEF00AB5E17 /* MusicData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +280,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8C23AD326AE857700AB5E17 /* Build configuration list for PBXNativeTarget "JustListenToMusic" */;
 			buildPhases = (
+				BA7A85C11E2EC829CE826EED /* [CP] Check Pods Manifest.lock */,
 				C8C23AAA26AE857600AB5E17 /* Sources */,
 				C8C23AAB26AE857600AB5E17 /* Frameworks */,
 				C8C23AAC26AE857600AB5E17 /* Resources */,
+				C8C23ADC26AE8A6000AB5E17 /* SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = JustListenToMusic;
+			packageProductDependencies = (
+				C8687EF726B00F2B00A2BECF /* OrderedCollections */,
+				C88E990D26B24A2D003FEF11 /* Lottie */,
+			);
 			productName = JustListenToMusic;
 			productReference = C8C23AAE26AE857600AB5E17 /* JustListenToMusic.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8C23AD626AE857700AB5E17 /* Build configuration list for PBXNativeTarget "JustListenToMusicTests" */;
 			buildPhases = (
+				532F60E8C2A5617CEB4FD4D6 /* [CP] Check Pods Manifest.lock */,
 				C8C23ABB26AE857700AB5E17 /* Sources */,
 				C8C23ABC26AE857700AB5E17 /* Frameworks */,
 				C8C23ABD26AE857700AB5E17 /* Resources */,
@@ -172,6 +322,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8C23AD926AE857700AB5E17 /* Build configuration list for PBXNativeTarget "JustListenToMusicUITests" */;
 			buildPhases = (
+				F40D6A822E1E7F2A3D22D700 /* [CP] Check Pods Manifest.lock */,
 				C8C23AC626AE857700AB5E17 /* Sources */,
 				C8C23AC726AE857700AB5E17 /* Frameworks */,
 				C8C23AC826AE857700AB5E17 /* Resources */,
@@ -217,6 +368,10 @@
 				Base,
 			);
 			mainGroup = C8C23AA526AE857500AB5E17;
+			packageReferences = (
+				C8687EF626B00F2B00A2BECF /* XCRemoteSwiftPackageReference "swift-collections" */,
+				C88E990C26B24A2D003FEF11 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = C8C23AAF26AE857600AB5E17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +390,15 @@
 			files = (
 				C8C23AB926AE857700AB5E17 /* Preview Assets.xcassets in Resources */,
 				C8C23AB626AE857700AB5E17 /* Assets.xcassets in Resources */,
+				C8687EF526B0038200A2BECF /* (日)出逢った頃のように.mp3 in Resources */,
+				C8687EF226B0038200A2BECF /* (日)あいみょん - マリーゴールド.mp3 in Resources */,
+				C8687EF426B0038200A2BECF /* (國)縱貫線-亡命之徒.mp3 in Resources */,
+				C88E991D26B25677003FEF11 /* walking02.json in Resources */,
+				C8687EF326B0038200A2BECF /* (國)黃明志-我們的海闊天空.mp3 in Resources */,
+				C88A942926BD11CB009FB5FB /* (日)平井 堅-瞳をとじて.mp3 in Resources */,
+				C88A942B26BD128C009FB5FB /* (Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3 in Resources */,
+				C88E991526B2566A003FEF11 /* walking01.json in Resources */,
+				C88E991E26B25677003FEF11 /* walking03.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +418,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		532F60E8C2A5617CEB4FD4D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustListenToMusicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7A85C11E2EC829CE826EED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustListenToMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C23ADC26AE8A6000AB5E17 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		F40D6A822E1E7F2A3D22D700 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustListenToMusic-JustListenToMusicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C8C23AAA26AE857600AB5E17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C23AB426AE857600AB5E17 /* ContentView.swift in Sources */,
+				C8C23AFA26AE8FEF00AB5E17 /* MusicRow.swift in Sources */,
+				C8C23AF926AE8FEF00AB5E17 /* MusicList.swift in Sources */,
+				C8C23AF826AE8FEF00AB5E17 /* MainView.swift in Sources */,
+				C88E991026B25348003FEF11 /* MusicPlayingView.swift in Sources */,
+				C8C23AFE26AE8FEF00AB5E17 /* MusicListViewModel.swift in Sources */,
 				C8C23AB226AE857600AB5E17 /* JustListenToMusicApp.swift in Sources */,
+				C8C23AFB26AE8FEF00AB5E17 /* MusicData.swift in Sources */,
+				C8C23AF726AE8FEF00AB5E17 /* FolderView.swift in Sources */,
+				C8C23AFC26AE8FEF00AB5E17 /* MusicRowViewModel.swift in Sources */,
+				C8C23AFD26AE8FEF00AB5E17 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +673,7 @@
 		};
 		C8C23AD426AE857700AB5E17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C224853F6438C78C2192043B /* Pods-JustListenToMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +696,7 @@
 		};
 		C8C23AD526AE857700AB5E17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39E963006E9447908D7AF4E /* Pods-JustListenToMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +719,7 @@
 		};
 		C8C23AD726AE857700AB5E17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C451CDB9CD819E20E50EEB /* Pods-JustListenToMusicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +742,7 @@
 		};
 		C8C23AD826AE857700AB5E17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 678275E281DB93BCB23A9EE0 /* Pods-JustListenToMusicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +765,7 @@
 		};
 		C8C23ADA26AE857700AB5E17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE171B68F4DB5EB723DBFAE7 /* Pods-JustListenToMusic-JustListenToMusicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +786,7 @@
 		};
 		C8C23ADB26AE857700AB5E17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D507006ECC65A2AA78316365 /* Pods-JustListenToMusic-JustListenToMusicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +845,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C8687EF626B00F2B00A2BECF /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.4;
+			};
+		};
+		C88E990C26B24A2D003FEF11 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8687EF726B00F2B00A2BECF /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8687EF626B00F2B00A2BECF /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		C88E990D26B24A2D003FEF11 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C88E990C26B24A2D003FEF11 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C8C23AA626AE857500AB5E17 /* Project object */;
 }
