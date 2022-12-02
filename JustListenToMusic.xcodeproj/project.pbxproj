@@ -10,13 +10,10 @@
 		5E13BF04EC760B591F6E2D60 /* Pods_JustListenToMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B5111B4E85B93F717196CA /* Pods_JustListenToMusicTests.framework */; };
 		8A5A0F05BB32E11989D168CE /* Pods_JustListenToMusic_JustListenToMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B931EEEEF37325D4D8B01D4 /* Pods_JustListenToMusic_JustListenToMusicUITests.framework */; };
 		A4C2068C151ECDD8F38B03E2 /* Pods_JustListenToMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0BCF1E82AD7BE173F8F549 /* Pods_JustListenToMusic.framework */; };
-		C8687EF226B0038200A2BECF /* (日)あいみょん - マリーゴールド.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8687EEE26B0038200A2BECF /* (日)あいみょん - マリーゴールド.mp3 */; };
-		C8687EF326B0038200A2BECF /* (國)黃明志-我們的海闊天空.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8687EEF26B0038200A2BECF /* (國)黃明志-我們的海闊天空.mp3 */; };
-		C8687EF426B0038200A2BECF /* (國)縱貫線-亡命之徒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8687EF026B0038200A2BECF /* (國)縱貫線-亡命之徒.mp3 */; };
-		C8687EF526B0038200A2BECF /* (日)出逢った頃のように.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8687EF126B0038200A2BECF /* (日)出逢った頃のように.mp3 */; };
 		C8687EF826B00F2B00A2BECF /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = C8687EF726B00F2B00A2BECF /* OrderedCollections */; };
-		C88A942926BD11CB009FB5FB /* (日)平井 堅-瞳をとじて.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88A942826BD11CB009FB5FB /* (日)平井 堅-瞳をとじて.mp3 */; };
-		C88A942B26BD128C009FB5FB /* (Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88A942A26BD128C009FB5FB /* (Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3 */; };
+		C87EB3652939D59400D932E6 /* (國)周興哲 - 想知道你在想什麼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87EB3642939D59400D932E6 /* (國)周興哲 - 想知道你在想什麼.mp3 */; };
+		C87EB3672939D75E00D932E6 /* (國)南拳媽媽 - 我回來了.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87EB3662939D75E00D932E6 /* (國)南拳媽媽 - 我回來了.mp3 */; };
+		C87EB3692939D7E600D932E6 /* (國)李聖傑 - 最美的遺憾.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87EB3682939D7E600D932E6 /* (國)李聖傑 - 最美的遺憾.mp3 */; };
 		C88E990E26B24A2D003FEF11 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C88E990D26B24A2D003FEF11 /* Lottie */; };
 		C88E991026B25348003FEF11 /* MusicPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88E990F26B25348003FEF11 /* MusicPlayingView.swift */; };
 		C88E991526B2566A003FEF11 /* walking01.json in Resources */ = {isa = PBXBuildFile; fileRef = C88E991426B2566A003FEF11 /* walking01.json */; };
@@ -62,12 +59,9 @@
 		BE171B68F4DB5EB723DBFAE7 /* Pods-JustListenToMusic-JustListenToMusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustListenToMusic-JustListenToMusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-JustListenToMusic-JustListenToMusicUITests/Pods-JustListenToMusic-JustListenToMusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C224853F6438C78C2192043B /* Pods-JustListenToMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustListenToMusic.debug.xcconfig"; path = "Target Support Files/Pods-JustListenToMusic/Pods-JustListenToMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		C39E963006E9447908D7AF4E /* Pods-JustListenToMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustListenToMusic.release.xcconfig"; path = "Target Support Files/Pods-JustListenToMusic/Pods-JustListenToMusic.release.xcconfig"; sourceTree = "<group>"; };
-		C8687EEE26B0038200A2BECF /* (日)あいみょん - マリーゴールド.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(日)あいみょん - マリーゴールド.mp3"; sourceTree = "<group>"; };
-		C8687EEF26B0038200A2BECF /* (國)黃明志-我們的海闊天空.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(國)黃明志-我們的海闊天空.mp3"; sourceTree = "<group>"; };
-		C8687EF026B0038200A2BECF /* (國)縱貫線-亡命之徒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(國)縱貫線-亡命之徒.mp3"; sourceTree = "<group>"; };
-		C8687EF126B0038200A2BECF /* (日)出逢った頃のように.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(日)出逢った頃のように.mp3"; sourceTree = "<group>"; };
-		C88A942826BD11CB009FB5FB /* (日)平井 堅-瞳をとじて.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(日)平井 堅-瞳をとじて.mp3"; sourceTree = "<group>"; };
-		C88A942A26BD128C009FB5FB /* (Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3"; sourceTree = "<group>"; };
+		C87EB3642939D59400D932E6 /* (國)周興哲 - 想知道你在想什麼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(國)周興哲 - 想知道你在想什麼.mp3"; sourceTree = "<group>"; };
+		C87EB3662939D75E00D932E6 /* (國)南拳媽媽 - 我回來了.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(國)南拳媽媽 - 我回來了.mp3"; sourceTree = "<group>"; };
+		C87EB3682939D7E600D932E6 /* (國)李聖傑 - 最美的遺憾.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(國)李聖傑 - 最美的遺憾.mp3"; sourceTree = "<group>"; };
 		C88E990F26B25348003FEF11 /* MusicPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayingView.swift; sourceTree = "<group>"; };
 		C88E991426B2566A003FEF11 /* walking01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = walking01.json; sourceTree = "<group>"; };
 		C88E991626B25677003FEF11 /* walking02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = walking02.json; sourceTree = "<group>"; };
@@ -224,12 +218,9 @@
 		C8C23AE526AE8FEF00AB5E17 /* Music Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8687EF126B0038200A2BECF /* (日)出逢った頃のように.mp3 */,
-				C8687EEE26B0038200A2BECF /* (日)あいみょん - マリーゴールド.mp3 */,
-				C88A942826BD11CB009FB5FB /* (日)平井 堅-瞳をとじて.mp3 */,
-				C88A942A26BD128C009FB5FB /* (Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3 */,
-				C8687EEF26B0038200A2BECF /* (國)黃明志-我們的海闊天空.mp3 */,
-				C8687EF026B0038200A2BECF /* (國)縱貫線-亡命之徒.mp3 */,
+				C87EB3642939D59400D932E6 /* (國)周興哲 - 想知道你在想什麼.mp3 */,
+				C87EB3662939D75E00D932E6 /* (國)南拳媽媽 - 我回來了.mp3 */,
+				C87EB3682939D7E600D932E6 /* (國)李聖傑 - 最美的遺憾.mp3 */,
 			);
 			path = "Music Files";
 			sourceTree = "<group>";
@@ -388,15 +379,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87EB3692939D7E600D932E6 /* (國)李聖傑 - 最美的遺憾.mp3 in Resources */,
 				C8C23AB926AE857700AB5E17 /* Preview Assets.xcassets in Resources */,
 				C8C23AB626AE857700AB5E17 /* Assets.xcassets in Resources */,
-				C8687EF526B0038200A2BECF /* (日)出逢った頃のように.mp3 in Resources */,
-				C8687EF226B0038200A2BECF /* (日)あいみょん - マリーゴールド.mp3 in Resources */,
-				C8687EF426B0038200A2BECF /* (國)縱貫線-亡命之徒.mp3 in Resources */,
 				C88E991D26B25677003FEF11 /* walking02.json in Resources */,
-				C8687EF326B0038200A2BECF /* (國)黃明志-我們的海闊天空.mp3 in Resources */,
-				C88A942926BD11CB009FB5FB /* (日)平井 堅-瞳をとじて.mp3 in Resources */,
-				C88A942B26BD128C009FB5FB /* (Game)Monster Hunter World OST Proof of a Hero (Extended) 英雄の証.mp3 in Resources */,
+				C87EB3652939D59400D932E6 /* (國)周興哲 - 想知道你在想什麼.mp3 in Resources */,
+				C87EB3672939D75E00D932E6 /* (國)南拳媽媽 - 我回來了.mp3 in Resources */,
 				C88E991526B2566A003FEF11 /* walking01.json in Resources */,
 				C88E991E26B25677003FEF11 /* walking03.json in Resources */,
 			);

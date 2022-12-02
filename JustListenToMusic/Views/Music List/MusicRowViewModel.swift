@@ -26,6 +26,7 @@ class MusicRowViewModel: NSObject, ObservableObject {
     }
 
     func playSounds(_ soundFile: String) {
+        soundFiles = adjustTheOrder(soundFile)
         if let url = Bundle.main.url(forResource: soundFile, withExtension: "mp3") {
             do {
                 initSession()
@@ -52,9 +53,28 @@ class MusicRowViewModel: NSObject, ObservableObject {
 
         return AVPlayerLooper(player: player, templateItem: item)
     }
+    
     func stopAll() {
         MusicRowViewModel.avAudioPlayer?.stop()
         MusicRowViewModel.avQueuePlayer?.pause()
+    }
+    
+    private func adjustTheOrder(_ soundFile: String) -> [String] {
+        var frontSoundFiles: [String] = []
+        var sortSoundFiles: [String] = []
+        guard let indexOfTarge = soundFiles.firstIndex(of: soundFile) else {
+            return soundFiles
+        }
+        for (index, item) in soundFiles.enumerated() {
+            if index < indexOfTarge {
+                frontSoundFiles.append(item)
+            } else if index >= indexOfTarge {
+                sortSoundFiles.append(item)
+            }
+        }
+        sortSoundFiles.append(contentsOf: frontSoundFiles)
+        
+        return sortSoundFiles
     }
 }
 
