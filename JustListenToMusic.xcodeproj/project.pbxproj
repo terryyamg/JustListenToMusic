@@ -10,6 +10,7 @@
 		5E13BF04EC760B591F6E2D60 /* Pods_JustListenToMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B5111B4E85B93F717196CA /* Pods_JustListenToMusicTests.framework */; };
 		8A5A0F05BB32E11989D168CE /* Pods_JustListenToMusic_JustListenToMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B931EEEEF37325D4D8B01D4 /* Pods_JustListenToMusic_JustListenToMusicUITests.framework */; };
 		A4C2068C151ECDD8F38B03E2 /* Pods_JustListenToMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0BCF1E82AD7BE173F8F549 /* Pods_JustListenToMusic.framework */; };
+		C80D648D2C006E1100CA7E05 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = C80D648C2C006E1100CA7E05 /* ComposableArchitecture */; };
 		C8687EF826B00F2B00A2BECF /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = C8687EF726B00F2B00A2BECF /* OrderedCollections */; };
 		C87EB3652939D59400D932E6 /* (國)周興哲 - 想知道你在想什麼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87EB3642939D59400D932E6 /* (國)周興哲 - 想知道你在想什麼.mp3 */; };
 		C87EB3672939D75E00D932E6 /* (國)南拳媽媽 - 我回來了.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87EB3662939D75E00D932E6 /* (國)南拳媽媽 - 我回來了.mp3 */; };
@@ -96,6 +97,7 @@
 			files = (
 				C8687EF826B00F2B00A2BECF /* OrderedCollections in Frameworks */,
 				A4C2068C151ECDD8F38B03E2 /* Pods_JustListenToMusic.framework in Frameworks */,
+				C80D648D2C006E1100CA7E05 /* ComposableArchitecture in Frameworks */,
 				C88E990E26B24A2D003FEF11 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +287,7 @@
 			packageProductDependencies = (
 				C8687EF726B00F2B00A2BECF /* OrderedCollections */,
 				C88E990D26B24A2D003FEF11 /* Lottie */,
+				C80D648C2C006E1100CA7E05 /* ComposableArchitecture */,
 			);
 			productName = JustListenToMusic;
 			productReference = C8C23AAE26AE857600AB5E17 /* JustListenToMusic.app */;
@@ -363,6 +366,7 @@
 			packageReferences = (
 				C8687EF626B00F2B00A2BECF /* XCRemoteSwiftPackageReference "swift-collections" */,
 				C88E990C26B24A2D003FEF11 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				C80D648B2C006E1100CA7E05 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = C8C23AAF26AE857600AB5E17 /* Products */;
 			projectDirPath = "";
@@ -454,6 +458,7 @@
 		};
 		C8C23ADC26AE8A6000AB5E17 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -721,7 +726,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22WV979VRD;
 				INFOPLIST_FILE = JustListenToMusicTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -744,7 +749,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22WV979VRD;
 				INFOPLIST_FILE = JustListenToMusicTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -842,6 +847,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C80D648B2C006E1100CA7E05 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.4;
+			};
+		};
 		C8687EF626B00F2B00A2BECF /* XCRemoteSwiftPackageReference "swift-collections" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-collections";
@@ -861,6 +874,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C80D648C2C006E1100CA7E05 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C80D648B2C006E1100CA7E05 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
 		C8687EF726B00F2B00A2BECF /* OrderedCollections */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C8687EF626B00F2B00A2BECF /* XCRemoteSwiftPackageReference "swift-collections" */;

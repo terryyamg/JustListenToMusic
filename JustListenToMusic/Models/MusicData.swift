@@ -13,7 +13,7 @@ enum MusicType: String, CaseIterable {
     case game = "遊戲"
 }
 
-struct MusicData: Identifiable {
+struct MusicData: Identifiable, Equatable {
     var id: Int
     var type: MusicType
     var title: String

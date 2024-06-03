@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct JustListenToMusicApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView(viewModel: MainViewModel())
+            MainView(store: StoreOf<AppFeature>(initialState: AppFeature.State(), reducer: {
+                AppFeature()
+            }))
         }
     }
 }

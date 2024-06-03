@@ -6,30 +6,40 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 struct MainView: View {
-    @ObservedObject var viewModel: MainViewModel
-
+    let store: StoreOf<AppFeature>
+    
     var body: some View {
-        let columns: [GridItem] =  Array(repeating: .init(.flexible()), count: 2)
-        NavigationView {
-            ScrollView {
-                LazyVGrid(columns: columns, spacing: 16.0) {
-                    ForEach(viewModel.folderList.keys, id: \.self) { key in
-                        let list = viewModel.folderList[key] ?? []
-                        NavigationLink(destination: MusicList(viewModel: .init(list), folderName: key.rawValue)) {
-                            FolderView(folderName: key.rawValue)
+        
+        WithViewStore(store, observe: { $0 }) { viewStore in
+            let columns: [GridItem] =  Array(repeating: .init(.flexible()), count: 2)
+            
+            NavigationView {
+                ScrollView {
+                    LazyVGrid(columns: columns, spacing: 16.0) {
+                        ForEach(viewStore.folderList.keys, id: \.self) { key in
+                            let list = viewStore.folderList[key] ?? []
+                            NavigationLink(destination: MusicList(viewModel: .init(list), folderName: key.rawValue)) {
+                                FolderView(folderName: key.rawValue)
+                            }
                         }
                     }
                 }
+                .navigationTitle("Folder")
             }
-            .navigationTitle("Folder")
+            .onAppear {
+                store.send(.getFiles)
+            }
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView(viewModel: MainViewModel())
+        MainView(store: StoreOf<AppFeature>(initialState: AppFeature.State(), reducer: {
+            AppFeature()
+        }))
     }
 }
