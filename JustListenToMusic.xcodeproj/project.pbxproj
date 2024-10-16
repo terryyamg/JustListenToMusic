@@ -31,8 +31,10 @@
 		C8C23AFA26AE8FEF00AB5E17 /* MusicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AEE26AE8FEF00AB5E17 /* MusicRow.swift */; };
 		C8C23AFB26AE8FEF00AB5E17 /* MusicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AF026AE8FEF00AB5E17 /* MusicData.swift */; };
 		C8C23AFC26AE8FEF00AB5E17 /* MusicRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AF226AE8FEF00AB5E17 /* MusicRowViewModel.swift */; };
-		C8C23AFD26AE8FEF00AB5E17 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AF326AE8FEF00AB5E17 /* MainViewModel.swift */; };
-		C8C23AFE26AE8FEF00AB5E17 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AF426AE8FEF00AB5E17 /* MusicListViewModel.swift */; };
+		C8C23AFD26AE8FEF00AB5E17 /* MainFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AF326AE8FEF00AB5E17 /* MainFeature.swift */; };
+		C8C23AFE26AE8FEF00AB5E17 /* MusicListFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C23AF426AE8FEF00AB5E17 /* MusicListFeature.swift */; };
+		C8E0C4C82CBE1B9400D66AA0 /* (Game)星の在り処mp3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8E0C4C72CBE1B9300D66AA0 /* (Game)星の在り処mp3.mp3 */; };
+		C8E0C4CA2CBE1B9A00D66AA0 /* (日)めざせポケモンマスター.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8E0C4C92CBE1B9A00D66AA0 /* (日)めざせポケモンマスター.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +86,10 @@
 		C8C23AEE26AE8FEF00AB5E17 /* MusicRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicRow.swift; sourceTree = "<group>"; };
 		C8C23AF026AE8FEF00AB5E17 /* MusicData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicData.swift; sourceTree = "<group>"; };
 		C8C23AF226AE8FEF00AB5E17 /* MusicRowViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicRowViewModel.swift; sourceTree = "<group>"; };
-		C8C23AF326AE8FEF00AB5E17 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		C8C23AF426AE8FEF00AB5E17 /* MusicListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
+		C8C23AF326AE8FEF00AB5E17 /* MainFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFeature.swift; sourceTree = "<group>"; };
+		C8C23AF426AE8FEF00AB5E17 /* MusicListFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListFeature.swift; sourceTree = "<group>"; };
+		C8E0C4C72CBE1B9300D66AA0 /* (Game)星の在り処mp3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(Game)星の在り処mp3.mp3"; sourceTree = "<group>"; };
+		C8E0C4C92CBE1B9A00D66AA0 /* (日)めざせポケモンマスター.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "(日)めざせポケモンマスター.mp3"; sourceTree = "<group>"; };
 		D507006ECC65A2AA78316365 /* Pods-JustListenToMusic-JustListenToMusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustListenToMusic-JustListenToMusicUITests.release.xcconfig"; path = "Target Support Files/Pods-JustListenToMusic-JustListenToMusicUITests/Pods-JustListenToMusic-JustListenToMusicUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E3C451CDB9CD819E20E50EEB /* Pods-JustListenToMusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustListenToMusicTests.debug.xcconfig"; path = "Target Support Files/Pods-JustListenToMusicTests/Pods-JustListenToMusicTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -223,6 +227,8 @@
 				C87EB3642939D59400D932E6 /* (國)周興哲 - 想知道你在想什麼.mp3 */,
 				C87EB3662939D75E00D932E6 /* (國)南拳媽媽 - 我回來了.mp3 */,
 				C87EB3682939D7E600D932E6 /* (國)李聖傑 - 最美的遺憾.mp3 */,
+				C8E0C4C72CBE1B9300D66AA0 /* (Game)星の在り処mp3.mp3 */,
+				C8E0C4C92CBE1B9A00D66AA0 /* (日)めざせポケモンマスター.mp3 */,
 			);
 			path = "Music Files";
 			sourceTree = "<group>";
@@ -240,7 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				C8C23AEB26AE8FEF00AB5E17 /* MainView.swift */,
-				C8C23AF326AE8FEF00AB5E17 /* MainViewModel.swift */,
+				C8C23AF326AE8FEF00AB5E17 /* MainFeature.swift */,
 				C8C23AEA26AE8FEF00AB5E17 /* FolderView.swift */,
 			);
 			path = "Music Groups";
@@ -250,7 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				C8C23AED26AE8FEF00AB5E17 /* MusicList.swift */,
-				C8C23AF426AE8FEF00AB5E17 /* MusicListViewModel.swift */,
+				C8C23AF426AE8FEF00AB5E17 /* MusicListFeature.swift */,
 				C8C23AEE26AE8FEF00AB5E17 /* MusicRow.swift */,
 				C8C23AF226AE8FEF00AB5E17 /* MusicRowViewModel.swift */,
 				C88E990F26B25348003FEF11 /* MusicPlayingView.swift */,
@@ -385,7 +391,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C87EB3692939D7E600D932E6 /* (國)李聖傑 - 最美的遺憾.mp3 in Resources */,
+				C8E0C4CA2CBE1B9A00D66AA0 /* (日)めざせポケモンマスター.mp3 in Resources */,
 				C8C23AB926AE857700AB5E17 /* Preview Assets.xcassets in Resources */,
+				C8E0C4C82CBE1B9400D66AA0 /* (Game)星の在り処mp3.mp3 in Resources */,
 				C8C23AB626AE857700AB5E17 /* Assets.xcassets in Resources */,
 				C88E991D26B25677003FEF11 /* walking02.json in Resources */,
 				C87EB3652939D59400D932E6 /* (國)周興哲 - 想知道你在想什麼.mp3 in Resources */,
@@ -508,12 +516,12 @@
 				C8C23AF926AE8FEF00AB5E17 /* MusicList.swift in Sources */,
 				C8C23AF826AE8FEF00AB5E17 /* MainView.swift in Sources */,
 				C88E991026B25348003FEF11 /* MusicPlayingView.swift in Sources */,
-				C8C23AFE26AE8FEF00AB5E17 /* MusicListViewModel.swift in Sources */,
+				C8C23AFE26AE8FEF00AB5E17 /* MusicListFeature.swift in Sources */,
 				C8C23AB226AE857600AB5E17 /* JustListenToMusicApp.swift in Sources */,
 				C8C23AFB26AE8FEF00AB5E17 /* MusicData.swift in Sources */,
 				C8C23AF726AE8FEF00AB5E17 /* FolderView.swift in Sources */,
 				C8C23AFC26AE8FEF00AB5E17 /* MusicRowViewModel.swift in Sources */,
-				C8C23AFD26AE8FEF00AB5E17 /* MainViewModel.swift in Sources */,
+				C8C23AFD26AE8FEF00AB5E17 /* MainFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,9 +12,11 @@ import ComposableArchitecture
 struct JustListenToMusicApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView(store: StoreOf<AppFeature>(initialState: AppFeature.State(), reducer: {
-                AppFeature()
-            }))
+            MainView(
+                store: StoreOf<MainFeature>(initialState: MainFeature.State()) {
+                    MainFeature()
+                }
+            )
         }
     }
 }

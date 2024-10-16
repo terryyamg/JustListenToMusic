@@ -9,10 +9,9 @@ import SwiftUI
 import ComposableArchitecture
 
 struct MainView: View {
-    let store: StoreOf<AppFeature>
+    let store: StoreOf<MainFeature>
     
     var body: some View {
-        
         WithViewStore(store, observe: { $0 }) { viewStore in
             let columns: [GridItem] =  Array(repeating: .init(.flexible()), count: 2)
             
@@ -20,8 +19,15 @@ struct MainView: View {
                 ScrollView {
                     LazyVGrid(columns: columns, spacing: 16.0) {
                         ForEach(viewStore.folderList.keys, id: \.self) { key in
-                            let list = viewStore.folderList[key] ?? []
-                            NavigationLink(destination: MusicList(viewModel: .init(list), folderName: key.rawValue)) {
+                            NavigationLink(destination: MusicList(
+                                store: store.scope(
+                                    state: { state in
+                                        state.musicListStates[key] ?? MusicListFeature.State()
+                                    },
+                                    action: { .musicList(key, $0) }
+                                ),
+                                folderName: key.rawValue
+                            )) {
                                 FolderView(folderName: key.rawValue)
                             }
                         }
@@ -30,7 +36,7 @@ struct MainView: View {
                 .navigationTitle("Folder")
             }
             .onAppear {
-                store.send(.getFiles)
+                viewStore.send(.getFiles)
             }
         }
     }
@@ -38,8 +44,8 @@ struct MainView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView(store: StoreOf<AppFeature>(initialState: AppFeature.State(), reducer: {
-            AppFeature()
+        MainView(store: StoreOf<MainFeature>(initialState: MainFeature.State(), reducer: {
+            MainFeature()
         }))
     }
 }

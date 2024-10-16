@@ -6,27 +6,32 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 struct MusicList: View {
-    @ObservedObject var viewModel: MusicListViewModel
+    let store: StoreOf<MusicListFeature>
+    
     @State var selected: String?
     var folderName: String = ""
     
     var body: some View {
-        List(viewModel.musicList) { musicData in
-            HStack {
-                MusicRow(viewModel: MusicRowViewModel(soundFiles: viewModel.musicList.map({ $0.title })),
-                         selected: $selected,
-                         musicData: musicData)
+        WithViewStore(store, observe: { $0 }) { viewStore in
+            List(viewStore.musicList) { musicData in
+                HStack {
+                    MusicRow(viewModel: MusicRowViewModel(soundFiles: viewStore.musicList.map({ $0.title })),
+                             selected: $selected,
+                             musicData: musicData)
+                }
             }
+            .navigationTitle(folderName)
         }
-        .navigationTitle(folderName)
     }
 }
 
 struct MusicList_Previews: PreviewProvider {
     static var previews: some View {
-        MusicList(viewModel: .init([MusicData(id: 0, type: .chinese, title: "第一首歌"),
-                                    MusicData(id: 1, type: .chinese, title: "第二首歌")]))
+        MusicList(store: StoreOf<MusicListFeature>(initialState: MusicListFeature.State(), reducer: {
+            MusicListFeature()
+        }))
     }
 }
